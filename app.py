@@ -67,10 +67,10 @@ if uploaded_file:
     c3.metric("Risk Percentage", f"{risk_percentage:.1f}%")
 
     if risk_percentage > 15:
-        st.error(f"🚨 AI CRITICAL INSIGHT: {risk_percentage:.1f}% of students are suffering from 'Multi-Factor Burnout'.")
+        st.error(f"🚨 CRITICAL INSIGHT: {risk_percentage:.1f}% of students are suffering from 'Multi-Factor Burnout'.")
         st.write("**Recommended Intervention:** Focus on students reporting high headache frequency and study loads over 4.")
     else:
-        st.success("✅ AI INSIGHT: Student health markers are within acceptable limits.")
+        st.success("✅ CRITICAL INSIGHT: Student health markers are within acceptable limits.")
 
     # --- 4. SHOW THE DATA ---
     with st.expander("📂 View Audited Data (Anonymized)"):
@@ -78,7 +78,7 @@ if uploaded_file:
 
     # --- 5. ETHICS & AI FUNDAMENTALS ---
     st.divider()
-    st.subheader("🛡️ AI Ethics & Reliability Report")
+    st.subheader("🛡️ Ethics & Reliability Report")
     
     eth1, eth2 = st.columns(2)
     with eth1:
