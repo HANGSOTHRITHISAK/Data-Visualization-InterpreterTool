@@ -19,3 +19,8 @@ Follow these steps to run the prototype on your local machine:
 Open your terminal or command prompt and run:
 ```bash
 pip install streamlit pandas
+
+### 1. Install Required Libraries
+Open your terminal or command prompt and run:
+```bash
+pip install streamlit pandas
