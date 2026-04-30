@@ -10,7 +10,7 @@ st.write("This version attempts to use a cloud-based LLM to interpret the data."
 
 # --- CONFIGURATION (Remember to add your key) ---
 try:
-    client = genai.Client(api_key="[INSERT YOUR GEMINI KEY HERE]")
+    client = genai.Client(api_key="AIzaSyAQkyZO7WbJUI3o4l1fuWAeRgDc0XP-Slw")
 except Exception as e:
     st.error("API Key not found or invalid. Please check your configuration.")
     st.stop()
